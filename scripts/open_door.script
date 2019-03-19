@@ -1,0 +1,11 @@
+if self.property["open"] == true then
+  play_animation(self, "close");
+  set_entity_property(self, "open", false);
+  modify_navigation("tile01", "tile02", 2);
+  modify_navigation("tile02", "tile03", 1)
+else
+  play_animation(self, "open");
+  set_entity_property(self, "open", true);
+  modify_navigation("tile01", "tile02", 0);
+  modify_navigation("tile02", "tile03", 2)
+end

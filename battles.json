@@ -1,0 +1,20 @@
+{
+  "battles": [
+    {
+      "name": "Slime Battle",
+      "map": "battle",
+      "enemies": [
+        {
+          "name": "Purple Slime",
+          "min_count": 2,
+          "max_count": 3
+        },
+        {
+          "name": "Red Slime",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ]
+}

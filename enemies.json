@@ -1,0 +1,22 @@
+{
+  "enemies": [
+    {
+      "name": "Purple Slime",
+      "model": "purple_slime",
+      "loot": [
+        {
+          "item_name": "Purple Goo"
+        }
+      ]
+    },
+    {
+      "name": "Red Slime",
+      "model": "red_slime",
+      "loot": [
+        {
+          "item_name": "Red Goo"
+        }
+      ]
+    }
+  ]
+}
