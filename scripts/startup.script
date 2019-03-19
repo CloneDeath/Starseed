@@ -1,2 +1,0 @@
-load_map("bedroom", coord[-1, -2, 0], SOUTH);
-give_item("Skeleton Key")
