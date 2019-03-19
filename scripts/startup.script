@@ -1,3 +1,2 @@
-load_map("example", coord[1, 2, 0], NORTH);
-give_item("Skeleton Key");
-display_message("Welcome to the game!")
+load_map("bedroom", coord[-1, -2, 0], SOUTH);
+give_item("Skeleton Key")
