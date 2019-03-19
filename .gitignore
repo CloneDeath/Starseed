@@ -1,1 +1,3 @@
 dist/
+*.backup1
+*.backup2
