@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "id": "ITEM_0001",
+      "name": "Uniform",
+      "description": "A standard military uniform",
+      "stackable": false,
+      "image": "uniform.png",
+      "usable": false
+    }
+  ],
+  "localized": false
+}

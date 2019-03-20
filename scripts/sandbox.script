@@ -1,0 +1,3 @@
+display_message("Hello, world!");
+if player.inventory contains "some_value" then
+end
