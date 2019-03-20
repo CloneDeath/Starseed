@@ -1,3 +1,4 @@
+play_sound("door_open");
 if self.property["open"] == true then
   play_animation(self, "close");
   replace_navigation(entity["tile01"], WALK_AND_INTERACT, INTERACT_ONLY);
