@@ -1,2 +1,3 @@
+set_vision_height(player, 4);
 load_map("starship", coord[0, -2, 0], SOUTH);
 start_dialogue("wake_up")
