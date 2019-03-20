@@ -1,3 +1,9 @@
-play_animation(self, "open");
-set_entity_blocks_sight(self, false);
-set_entity_property(self, "passable", true)
+if self.property["open"] == true then
+  play_animation(self, "close");
+  replace_navigation(entity["tile01"], WALK_AND_INTERACT, INTERACT_ONLY);
+  set_entity_property(self, "open", false)
+else
+  play_animation(self, "open");
+  replace_navigation(entity["tile01"], INTERACT_ONLY, WALK_AND_INTERACT);
+  set_entity_property(self, "open", true)
+end
