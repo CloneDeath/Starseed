@@ -1,0 +1,3 @@
+play_animation(self, "open");
+set_entity_blocks_sight(self, false);
+set_entity_property(self, "passable", true)

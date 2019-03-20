@@ -1,0 +1,1 @@
+load_map("starship", coord[0, -2, 0], SOUTH)
